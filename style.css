@@ -202,13 +202,13 @@ header {
 
 @keyframes slide {
     0% { transform: translateX(0); }
-    25% { transform: translateX(0); } /* Primeira imagem */
+    25% { transform: translateX(0); } /* 1 */
     30% { transform: translateX(-25%); } 
-    55% { transform: translateX(-25%); } /* Segunda imagem */
+    55% { transform: translateX(-25%); } /* 2 */
     60% { transform: translateX(-50%); }
-    85% { transform: translateX(-50%); } /* Terceira imagem */
+    85% { transform: translateX(-50%); } /* 3 */
     90% { transform: translateX(-75%); }
-    100% { transform: translateX(-75%); } /* Quarta imagem (loop) */
+    100% { transform: translateX(-75%); } /* 4 (loop) */
 }
 
 
